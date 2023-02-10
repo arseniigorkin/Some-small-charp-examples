@@ -2,10 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RomanNumbersParser", "RomanNumbersParser\RomanNumbersParser.csproj", "{F25FEAFC-FD71-480E-876E-6ED6829F450D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWebApp1", "TestWebApp1\TestWebApp1.csproj", "{6E2869C0-4CE7-426C-B825-AFA939244EF0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication2MVC", "WebApplication2MVC\WebApplication2MVC.csproj", "{BD01A650-04F8-4E85-82D2-17B25133A459}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplicationFromEmpty", "WebApplicationFromEmpty\WebApplicationFromEmpty.csproj", "{3B2F45EF-7A40-4EDF-9A4B-14EF5B93E9B2}"
 EndProject
 Global
@@ -18,14 +14,6 @@ Global
 		{F25FEAFC-FD71-480E-876E-6ED6829F450D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F25FEAFC-FD71-480E-876E-6ED6829F450D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F25FEAFC-FD71-480E-876E-6ED6829F450D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6E2869C0-4CE7-426C-B825-AFA939244EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6E2869C0-4CE7-426C-B825-AFA939244EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6E2869C0-4CE7-426C-B825-AFA939244EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6E2869C0-4CE7-426C-B825-AFA939244EF0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BD01A650-04F8-4E85-82D2-17B25133A459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD01A650-04F8-4E85-82D2-17B25133A459}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD01A650-04F8-4E85-82D2-17B25133A459}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD01A650-04F8-4E85-82D2-17B25133A459}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3B2F45EF-7A40-4EDF-9A4B-14EF5B93E9B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3B2F45EF-7A40-4EDF-9A4B-14EF5B93E9B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B2F45EF-7A40-4EDF-9A4B-14EF5B93E9B2}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,0 +1,15 @@
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/bin/Debug/net6.0/RomanNumbersParser
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/bin/Debug/net6.0/RomanNumbersParser.deps.json
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/bin/Debug/net6.0/RomanNumbersParser.runtimeconfig.json
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/bin/Debug/net6.0/RomanNumbersParser.dll
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/bin/Debug/net6.0/ref/RomanNumbersParser.dll
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/bin/Debug/net6.0/RomanNumbersParser.pdb
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.csproj.AssemblyReference.cache
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.GeneratedMSBuildEditorConfig.editorconfig
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.AssemblyInfoInputs.cache
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.AssemblyInfo.cs
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.csproj.CoreCompileInputs.cache
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.dll
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/ref/RomanNumbersParser.dll
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.pdb
+/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/obj/Debug/net6.0/RomanNumbersParser.genruntimeconfig.cache
