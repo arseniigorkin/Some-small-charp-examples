@@ -11,3 +11,14 @@ public class MyCustomMW : IMiddleware
 		await context.Response.WriteAsync("End of the Custom MW<br />");
 	}
 }
+
+// создаём расширение для короткой вставки MW в программу.
+// достаточно лишь вписать app.UseMyCustomMW(); и запустится MyCustomMW.Task
+// (как при такой записи: app.UseMiddleware<MyCustomMW>();)
+public static class MyCustomMiddleWareExtension
+{
+	public static IApplicationBuilder UseMyCustomMW(this IApplicationBuilder app)
+	{
+		return app.UseMiddleware<MyCustomMW>();
+	}
+}

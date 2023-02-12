@@ -18,13 +18,15 @@ var app = builder.Build();
 // app.MapGet("/", () => "Hello World 2!");
 
 // Registering MiddleWare class
-app.UseMiddleware<MyCustomMW>();
+// app.UseMiddleware<MyCustomMW>();
+app.UseMyCustomMW();
 
 app.Use(async (HttpContext context, RequestDelegate next) =>
 {
 	await context.Response.WriteAsync("Second MW <br />");
 	await next(context);
 });
+
 
 app.Run(async (HttpContext context) =>
 {
