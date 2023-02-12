@@ -51,6 +51,10 @@ app.Run(async (HttpContext context) =>
 			case "deduct":
 				result = firstNumber - secondNumber;
 				break;
+			default:
+				context.Response.StatusCode = 400;
+				await context.Response.WriteAsync("Неверный оператор.");
+				break;
 		}
 		
 		context.Response.StatusCode = 200;
