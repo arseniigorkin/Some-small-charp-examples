@@ -20,6 +20,7 @@ var app = builder.Build();
 // Registering MiddleWare class
 // app.UseMiddleware<MyCustomMW>();
 app.UseMyCustomMW();
+app.UseHelloMW();
 
 app.Use(async (HttpContext context, RequestDelegate next) =>
 {
