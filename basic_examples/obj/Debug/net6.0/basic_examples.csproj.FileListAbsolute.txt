@@ -1,0 +1,15 @@
+/Users/arseniigorkin/C# learning/basic_examples/bin/Debug/net6.0/basic_examples
+/Users/arseniigorkin/C# learning/basic_examples/bin/Debug/net6.0/basic_examples.deps.json
+/Users/arseniigorkin/C# learning/basic_examples/bin/Debug/net6.0/basic_examples.runtimeconfig.json
+/Users/arseniigorkin/C# learning/basic_examples/bin/Debug/net6.0/basic_examples.dll
+/Users/arseniigorkin/C# learning/basic_examples/bin/Debug/net6.0/basic_examples.pdb
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.csproj.AssemblyReference.cache
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.AssemblyInfoInputs.cache
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.AssemblyInfo.cs
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.csproj.CoreCompileInputs.cache
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.dll
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/refint/basic_examples.dll
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.pdb
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/basic_examples.genruntimeconfig.cache
+/Users/arseniigorkin/C# learning/basic_examples/obj/Debug/net6.0/ref/basic_examples.dll
