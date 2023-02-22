@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HSAm+uvHCp6/GHn0V0dcbI6L08rsrbPMyMHqVmK2gtnFtR8xpCeoYm/dQSwlqEJXWoPT8co+f8+59y+Wu85IRw==",
+  "dgSpecHash": "JBuMjAxDF01AXLFMVLm8But6bZaDfOIc25S02/z+h8Ynuo+oc1D0KXX/DVHC6gkqr1c0vkHPN4Ikna7B0/B+8Q==",
   "success": true,
-  "projectFilePath": "/home/arseniigorkin/C# Learning/Csharp_learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj",
+  "projectFilePath": "/Users/arseniigorkin/C# learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

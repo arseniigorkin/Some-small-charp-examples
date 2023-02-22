@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "/home/arseniigorkin/C# Learning/Csharp_learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj": {}
+    "/Users/arseniigorkin/C# learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj": {}
   },
   "projects": {
-    "/home/arseniigorkin/C# Learning/Csharp_learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj": {
+    "/Users/arseniigorkin/C# learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arseniigorkin/C# Learning/Csharp_learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj",
+        "projectUniqueName": "/Users/arseniigorkin/C# learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj",
         "projectName": "WebApplicationFromEmpty",
-        "projectPath": "/home/arseniigorkin/C# Learning/Csharp_learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj",
-        "packagesPath": "/home/arseniigorkin/.nuget/packages/",
-        "outputPath": "/home/arseniigorkin/C# Learning/Csharp_learning/WebApplicationFromEmpty/obj/",
+        "projectPath": "/Users/arseniigorkin/C# learning/WebApplicationFromEmpty/WebApplicationFromEmpty.csproj",
+        "packagesPath": "/Users/arseniigorkin/.nuget/packages/",
+        "outputPath": "/Users/arseniigorkin/C# learning/WebApplicationFromEmpty/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/arseniigorkin/.nuget/NuGet/NuGet.Config"
+          "/Users/arseniigorkin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,7 +44,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/6.0.113/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PTUcYFOUzPHbX5LLHt8kwLIrGc4vQyCGyrF85jTA+YCiG6ff3/Livj/R38zD6q1BkSiifXjjdttBa1yhf200Yw==",
+  "dgSpecHash": "G/MnfD9vw6diC31RbelZnAvbzjHDtLz4ollGVcTH2MTkighIKs5G7qbkYH9p75Nq76IMI0H7ctFY93R8l3zJcg==",
   "success": true,
-  "projectFilePath": "/home/arseniigorkin/C# Learning/Csharp_learning/RomanNumbersParser/RomanNumbersParser.csproj",
+  "projectFilePath": "/Users/arseniigorkin/C# learning/RomanNumbersParser/RomanNumbersParser.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

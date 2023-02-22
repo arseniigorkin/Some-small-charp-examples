@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/arseniigorkin/C# learning/RomanNumbersParser/RomanNumbersParser.csproj",
-      "projectName": "RomanNumbersParser",
-      "projectPath": "/Users/arseniigorkin/C# learning/RomanNumbersParser/RomanNumbersParser.csproj",
+      "projectUniqueName": "/Users/arseniigorkin/C# learning/basic_examples/basic_examples.csproj",
+      "projectName": "basic_examples",
+      "projectPath": "/Users/arseniigorkin/C# learning/basic_examples/basic_examples.csproj",
       "packagesPath": "/Users/arseniigorkin/.nuget/packages/",
-      "outputPath": "/Users/arseniigorkin/C# learning/RomanNumbersParser/obj/",
+      "outputPath": "/Users/arseniigorkin/C# learning/basic_examples/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/arseniigorkin/.nuget/NuGet/NuGet.Config"
