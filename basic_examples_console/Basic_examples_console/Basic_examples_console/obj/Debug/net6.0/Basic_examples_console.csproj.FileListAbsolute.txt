@@ -1,0 +1,15 @@
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/bin/Debug/net6.0/Basic_examples_console
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/bin/Debug/net6.0/Basic_examples_console.deps.json
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/bin/Debug/net6.0/Basic_examples_console.runtimeconfig.json
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/bin/Debug/net6.0/Basic_examples_console.dll
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/bin/Debug/net6.0/Basic_examples_console.pdb
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.csproj.AssemblyReference.cache
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.GeneratedMSBuildEditorConfig.editorconfig
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.AssemblyInfoInputs.cache
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.AssemblyInfo.cs
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.csproj.CoreCompileInputs.cache
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.dll
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/refint/Basic_examples_console.dll
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.pdb
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/Basic_examples_console.genruntimeconfig.cache
+/Users/arseniigorkin/C# learning/basic_examples_console/Basic_examples_console/Basic_examples_console/obj/Debug/net6.0/ref/Basic_examples_console.dll
