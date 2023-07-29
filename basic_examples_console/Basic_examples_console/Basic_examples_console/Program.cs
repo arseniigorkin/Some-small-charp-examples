@@ -61,9 +61,9 @@ namespace Basic_examples_console
         {
             var Tree = new Enum.EnumTrees(Enum.Trees.Oak);
             
-                Console.WriteLine(Tree._treeLength);
+            Console.WriteLine(Tree._treeLength);
                 
-            }
+        }
     }
     
 }
