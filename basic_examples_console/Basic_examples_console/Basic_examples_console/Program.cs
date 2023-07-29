@@ -1,10 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
+﻿using System.Reflection.Metadata;
+using System.Threading.Tasks.Dataflow;
 using Basic_examples_console_Character;
 using Basic_examples_console_inheritance;
 using Basic_examples_console_Polymorph;
 using Basic_examples_console_subPolymorph;
+
+using Basic_examples_console_IExample;
 
     // double avg = Calc.Average(new int[] { 1, 2, 3, 4 });
     // Console.WriteLine(avg.ToString());
@@ -29,21 +30,41 @@ using Basic_examples_console_subPolymorph;
     // chld1.SumXY();
     // inh.SumXY();
 
-    polymorph sPM = new sub_polymorph("Привет, медвед!", 900);
-    Console.WriteLine(sPM.GetText());
-    Console.WriteLine($"Get_number из суб_полиморфа: {sPM.getNumber()}");
+    // polymorph sPM = new sub_polymorph("Привет, медвед!", 900);
+    // Console.WriteLine(sPM.GetText());
+    // Console.WriteLine($"Get_number из суб_полиморфа: {sPM.getNumber()}");
+    //
+    // // ТУТ НЕВАЖНО, какой из наследников передан будет сюда. Главное - он имеет контракт
+    // // с polymorph, а значит его структура и методы будут всегда определены одинаково
+    // // с точки зрения конструкции
+    // static void Something(polymorph plmr)
+    // {
+    //    Console.WriteLine($"Число: {plmr.getNumber()}"); 
+    //    Console.WriteLine($"Текст: {plmr.GetText()}"); 
+    // }
+    //
+    // polymorph newPlm = new sub_polymorph("Жизнь хороша!", 701);
+    // Something(newPlm);
 
-    // ТУТ НЕВАЖНО, какой из наследников передан будет сюда. Главное - он имеет контракт
-    // с polymorph, а значит его структура и методы будут всегда определены одинаково
-    // с точки зрения конструкции
-    static void Something(polymorph plmr)
+
+//
+// InterfaceExampleClass iFEc = new InterfaceExampleClass("Мишка колосапый", 800, true);
+// Console.WriteLine(iFEc.getText("Заря."));
+// Console.WriteLine(iFEc.getNumber(200));
+
+
+namespace Basic_examples_console
+{
+    class Program
     {
-       Console.WriteLine($"Число: {plmr.getNumber()}"); 
-       Console.WriteLine($"Текст: {plmr.GetText()}"); 
+        static void Main()
+        {
+            var Tree = new Enum.EnumTrees(Enum.Trees.Oak);
+            
+                Console.WriteLine(Tree._treeLength);
+                
+            }
     }
-
-    polymorph newPlm = new sub_polymorph("Жизнь хороша!", 701);
-    Something(newPlm);
-
     
-    
+}
+
