@@ -59,10 +59,19 @@ namespace Basic_examples_console
     {
         static void Main()
         {
-            var Tree = new Enum.EnumTrees(Enum.Trees.Oak);
+            ////// ENUM example
+            /// 
+            // var Tree = new Enum.EnumTrees(Enum.Trees.Oak);
+            //
+            // Console.WriteLine(Tree._treeLength);
             
-            Console.WriteLine(Tree._treeLength);
-                
+            ////// Generic example
+            var GenericStr = new GenericExample<string>();
+            Console.WriteLine(GenericStr.makeDefault("Hello!"));
+            var GenericInt = new GenericExample<int>();
+            int a = 100;
+            Console.WriteLine(GenericInt.makeDefault(a));
+
         }
     }
     
