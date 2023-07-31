@@ -81,6 +81,16 @@ namespace Basic_examples_console
             Console.WriteLine(IEnum.Pop());
             IEnum.Push(7);
             Console.WriteLine(IEnum.Peek());
+
+            int i = 0;
+            foreach (var item in IEnum)
+            {
+                Console.WriteLine(item);
+                i++;
+            }
+
+            // Console.ReadLine();
+
             Console.WriteLine(IEnum.Pop());
             Console.WriteLine(IEnum.Pop());
             Console.WriteLine(IEnum.Pop());

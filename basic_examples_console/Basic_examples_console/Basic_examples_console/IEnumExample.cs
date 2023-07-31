@@ -6,18 +6,20 @@ namespace Basic_examples_console;
 public class IEnumExample<T> :IEnumerable<T>
 {
     private T[] _items;
-    private int Count = -1;
+    private int Count; // 0 by default
+    private int _itemsLength;
 
-    public IEnumExample()
+    public IEnumExample(int itemsLength = 10)
     {
-        _items = new T[10];
+        _itemsLength = itemsLength;
+        _items = new T[_itemsLength];
     }
 
     public void Push(T item)
     {
-        if (Count < 10)
+        if (Count < _itemsLength)
         {
-            _items[++Count] = item;
+            _items[Count++] = item; // because of the operations order, first we store item in the _items[Count] and then increasing Count by 1, performing Count++; increase Count BEFORE - use ++Count instead.
         }
         else
         {
@@ -27,10 +29,11 @@ public class IEnumExample<T> :IEnumerable<T>
 
     public T Pop ()
     {
-        if (Count > -1)
+        if (Count >= 0)
         {
-            var tmpVar = _items[Count];
-            _items[Count--] = default;
+            var tmpVar = _items[Count - 1];
+            _items[--Count] = default;
+            
             return tmpVar;
         }
 
@@ -39,17 +42,16 @@ public class IEnumExample<T> :IEnumerable<T>
 
     public T Peek()
     {
-        if (Count == 0)
+        if (Count < 0)
         {
             throw new IndexOutOfRangeException();
         }
-
-        return _items[Count];
+        return _items[Count - 1];
     }
     
     public IEnumerator<T> GetEnumerator()
     {
-        return new MYIEnumerator<T>(_items);
+        return new MYIEnumerator<T>(_items, Count);
     }
 
     IEnumerator IEnumerable.GetEnumerator()
@@ -60,21 +62,25 @@ public class IEnumExample<T> :IEnumerable<T>
 
 public class MYIEnumerator<T> : IEnumerator<T>
 {
-    private int position = -1;
+    private int position;
+    private int Count;
     private readonly T[] _array;
 
-    public MYIEnumerator(T[] array)
+    public MYIEnumerator(T[] array, int Count)
     {
         _array = array;
+        this.Count = Count;
+        position = Count;
     }
     public bool MoveNext()
     {
-        return ++position > _array.Length;
+        position--;
+        return position >= 0;
     }
 
     public void Reset()
     {
-        position = -1;
+        position = Count;
     }
 
     public T Current => _array[position];
