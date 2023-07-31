@@ -48,10 +48,18 @@ public class IEnumExample<T> :IEnumerable<T>
         }
         return _items[Count - 1];
     }
+    //
+    // public IEnumerator<T> GetEnumerator()
+    // {
+    //     return new MYIEnumerator<T>(_items, Count);
+    // }
     
     public IEnumerator<T> GetEnumerator()
     {
-        return new MYIEnumerator<T>(_items, Count);
+        for (int i = Count - 1; i >= 0; i--)
+        {
+            yield return _items[i];
+        }
     }
 
     IEnumerator IEnumerable.GetEnumerator()
@@ -60,34 +68,34 @@ public class IEnumExample<T> :IEnumerable<T>
     }
 }
 
-public class MYIEnumerator<T> : IEnumerator<T>
-{
-    private int position;
-    private int Count;
-    private readonly T[] _array;
-
-    public MYIEnumerator(T[] array, int Count)
-    {
-        _array = array;
-        this.Count = Count;
-        position = Count;
-    }
-    public bool MoveNext()
-    {
-        position--;
-        return position >= 0;
-    }
-
-    public void Reset()
-    {
-        position = Count;
-    }
-
-    public T Current => _array[position];
-
-    object IEnumerator.Current => Current;
-
-    public void Dispose()
-    {
-    }
-}
+// public class MYIEnumerator<T> : IEnumerator<T>
+// {
+//     private int position;
+//     private int Count;
+//     private readonly T[] _array;
+//
+//     public MYIEnumerator(T[] array, int Count)
+//     {
+//         _array = array;
+//         this.Count = Count;
+//         position = Count;
+//     }
+//     public bool MoveNext()
+//     {
+//         position--;
+//         return position >= 0;
+//     }
+//
+//     public void Reset()
+//     {
+//         position = Count;
+//     }
+//
+//     public T Current => _array[position];
+//
+//     object IEnumerator.Current => Current;
+//
+//     public void Dispose()
+//     {
+//     }
+// }
