@@ -58,7 +58,7 @@ public class IEnumExample<T> :IEnumerable<T>
     {
         for (int i = Count - 1; i >= 0; i--)
         {
-            yield return _items[i];
+            yield return _items[i]; // this code iterates as lazy. It means - each of these iterations will be faired ONLY on request of the external foreach iteration. So, it will NOT fire process all the iterations here and feed to the external foreach, before the foreach actually called the specific iteration! This is a great for large requests!
         }
     }
 
