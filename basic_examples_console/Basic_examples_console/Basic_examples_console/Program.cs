@@ -65,12 +65,37 @@ namespace Basic_examples_console
             //
             // Console.WriteLine(Tree._treeLength);
             
-            ////// Generic example
-            var GenericStr = new GenericExample<string>();
-            Console.WriteLine(GenericStr.makeDefault("Hello!"));
-            var GenericInt = new GenericExample<int>();
-            int a = 100;
-            Console.WriteLine(GenericInt.makeDefault(a));
+            // ////// Generic example
+            // var GenericStr = new GenericExample<string>();
+            // Console.WriteLine(GenericStr.makeDefault("Hello!"));
+            // var GenericInt = new GenericExample<int>();
+            // int a = 100;
+            // Console.WriteLine(GenericInt.makeDefault(a));
+            
+            ///// IEnumerator + foreach
+            var IEnum = new IEnumExample<int>();
+            IEnum.Push(1);
+            IEnum.Push(3);
+            IEnum.Push(5);
+            Console.WriteLine(IEnum.Peek());
+            Console.WriteLine(IEnum.Pop());
+            IEnum.Push(7);
+            Console.WriteLine(IEnum.Peek());
+
+            int i = 0;
+            foreach (var item in IEnum)
+            {
+                Console.WriteLine(item);
+                i++;
+            }
+
+            // Console.ReadLine();
+
+            Console.WriteLine(IEnum.Pop());
+            Console.WriteLine(IEnum.Pop());
+            Console.WriteLine(IEnum.Pop());
+            Console.WriteLine(IEnum.Pop()); // throws exception about the about of range, which is correct.
+
 
         }
     }
