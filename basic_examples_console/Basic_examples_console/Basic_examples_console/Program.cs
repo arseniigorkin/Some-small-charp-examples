@@ -91,10 +91,10 @@ namespace Basic_examples_console
 
             // Console.ReadLine();
 
-            Console.WriteLine(IEnum.Pop());
-            Console.WriteLine(IEnum.Pop());
-            Console.WriteLine(IEnum.Pop());
-            Console.WriteLine(IEnum.Pop()); // throws exception about the about of range, which is correct.
+            // Console.WriteLine(IEnum.Pop());
+            // Console.WriteLine(IEnum.Pop());
+            // Console.WriteLine(IEnum.Pop());
+            // Console.WriteLine(IEnum.Pop()); // throws exception about the about of range, which is correct.
 
 
         }
